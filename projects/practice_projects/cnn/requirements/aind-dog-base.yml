@@ -1,0 +1,95 @@
+name: aind-dog
+channels:
+- defaults
+dependencies:
+- _nb_ext_conf
+- anaconda-client
+- bleach
+- bzip2
+- clyent
+- colorama
+- cycler
+- decorator
+- entrypoints
+- freetype
+- h5py
+- hdf5
+- html5lib
+- icu
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jinja2
+- jpeg
+- jsonschema
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- libpng
+- libtiff
+- markupsafe
+- matplotlib
+- mistune
+- mkl
+- nb_anacondacloud
+- nb_conda
+- nb_conda_kernels
+- nbconvert
+- nbformat
+- nbpresent
+- notebook
+- numpy
+- olefile
+- openssl
+- pandas
+- pandocfilters
+- path.py
+- pickleshare
+- pillow
+- pip
+- prompt_toolkit
+- pygments
+- pyparsing
+- pyqt
+- python
+- python-dateutil
+- pytz
+- pyyaml
+- pyzmq
+- qt
+- qtconsole
+- requests
+- scikit-learn
+- scipy
+- setuptools
+- simplegeneric
+- sip
+- six
+- testpath
+- tk
+- tornado
+- traitlets
+- vs2015_runtime
+- wcwidth
+- wheel
+- widgetsnbextension
+- win_unicode_console
+- zlib
+- pip:
+  - ipython-genutils
+  - jupyter-client
+  - jupyter-console
+  - jupyter-core
+  - keras
+  - nb-anacondacloud
+  - nb-conda
+  - nb-conda-kernels
+  - opencv-python
+  - prompt-toolkit
+  - protobuf
+  - tensorflow
+  - theano
+  - tqdm
+  - win-unicode-console
