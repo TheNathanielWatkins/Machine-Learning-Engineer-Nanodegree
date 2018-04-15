@@ -1,0 +1,12 @@
+.DS_Store
+dogImages/train/*
+dogImages/test/*
+dogImages/valid/*
+lfw/*
+saved_models/*
+.ipynb_checkpoints/
+bottleneck_features/*
+inputImages/*
+__MACOSX/
+*.png
+__pycache__
