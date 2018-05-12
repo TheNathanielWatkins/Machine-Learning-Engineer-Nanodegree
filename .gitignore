@@ -61,8 +61,8 @@ docs/_build/
 # PyBuilder
 target/
 
-#Ipython Notebook
+# Ipython Notebook
 .ipynb_checkpoints
 
 # Temporarily ignore
-projects/practice_projects/dermatologist-ai
+practice_projects/dermatologist-ai
