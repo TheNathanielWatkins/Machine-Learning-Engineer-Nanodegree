@@ -1,0 +1,495 @@
+Requirement already satisfied: numpy in /opt/conda/lib/python3.6/site-packages
+Requirement already satisfied: scipy in /opt/conda/lib/python3.6/site-packages
+Requirement already satisfied: gym in /opt/conda/lib/python3.6/site-packages
+Requirement already satisfied: requests>=2.0 in /opt/conda/lib/python3.6/site-packages (from gym)
+Requirement already satisfied: pyglet>=1.2.0 in /opt/conda/lib/python3.6/site-packages (from gym)
+Requirement already satisfied: six in /opt/conda/lib/python3.6/site-packages (from gym)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /opt/conda/lib/python3.6/site-packages (from requests>=2.0->gym)
+Requirement already satisfied: idna<2.7,>=2.5 in /opt/conda/lib/python3.6/site-packages (from requests>=2.0->gym)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in /opt/conda/lib/python3.6/site-packages (from requests>=2.0->gym)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.6/site-packages (from requests>=2.0->gym)
+Requirement already satisfied: future in /opt/conda/lib/python3.6/site-packages (from pyglet>=1.2.0->gym)
+You are using pip version 9.0.1, however version 10.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+root@e9f49640e2da:/home/workspace# python main.py
+Episode 20000/20000 || Best average reward 9.152
+
+Trying: epsilon=0.00022 || alpha=0.638 || gamma=0.232
+Episode 20000/20000 || Best average reward 9.531
+
+Trying: epsilon=0.00066 || alpha=0.829 || gamma=0.375
+Episode 20000/20000 || Best average reward 9.193
+
+Trying: epsilon=0.00036 || alpha=0.329 || gamma=0.305
+Episode 20000/20000 || Best average reward 9.331
+
+Trying: epsilon=0.00034 || alpha=0.947 || gamma=0.525
+Episode 20000/20000 || Best average reward 8.855
+
+Trying: epsilon=0.0009 || alpha=0.714 || gamma=0.771
+Episode 20000/20000 || Best average reward 8.886
+
+Trying: epsilon=0.00016 || alpha=0.772 || gamma=0.839
+Episode 20000/20000 || Best average reward 9.385
+
+Trying: epsilon=0.00043 || alpha=0.719 || gamma=0.402
+Episode 20000/20000 || Best average reward 9.277
+
+Trying: epsilon=6e-05 || alpha=0.847 || gamma=0.588
+Episode 20000/20000 || Best average reward 8.868
+
+Trying: epsilon=0.00022 || alpha=0.746 || gamma=0.673
+Episode 20000/20000 || Best average reward 9.069
+
+Trying: epsilon=0.00086 || alpha=0.249 || gamma=0.774
+Episode 20000/20000 || Best average reward 9.212
+
+Trying: epsilon=0.00016 || alpha=0.602 || gamma=0.147
+Episode 20000/20000 || Best average reward 8.646
+
+Trying: epsilon=0.00013 || alpha=0.141 || gamma=0.366
+Episode 20000/20000 || Best average reward 9.331
+
+Trying: epsilon=0.00083 || alpha=0.354 || gamma=0.659
+Episode 20000/20000 || Best average reward 9.244
+
+Trying: epsilon=0.00092 || alpha=0.405 || gamma=0.618
+Episode 20000/20000 || Best average reward 9.188
+
+Trying: epsilon=0.0002 || alpha=0.61 || gamma=0.757
+Episode 20000/20000 || Best average reward 9.263
+
+Trying: epsilon=0.00041 || alpha=0.107 || gamma=0.535
+Episode 20000/20000 || Best average reward 9.171
+
+Trying: epsilon=0.00052 || alpha=0.602 || gamma=0.659
+Episode 20000/20000 || Best average reward 9.099
+
+Trying: epsilon=0.00054 || alpha=0.122 || gamma=0.62
+Episode 20000/20000 || Best average reward 9.143
+
+Trying: epsilon=0.00014 || alpha=0.93 || gamma=0.643
+Episode 20000/20000 || Best average reward 9.387
+
+Trying: epsilon=0.00018 || alpha=0.881 || gamma=0.915
+Episode 20000/20000 || Best average reward 9.174
+
+Trying: epsilon=0.00038 || alpha=0.991 || gamma=0.583
+Episode 20000/20000 || Best average reward 8.863
+
+Trying: epsilon=0.0008 || alpha=0.737 || gamma=0.291
+Episode 20000/20000 || Best average reward 9.088
+
+Trying: epsilon=0.00068 || alpha=0.849 || gamma=0.253
+Episode 20000/20000 || Best average reward 9.137
+
+Trying: epsilon=0.00033 || alpha=0.205 || gamma=0.555
+Episode 20000/20000 || Best average reward 9.079
+
+Trying: epsilon=0.00054 || alpha=0.82 || gamma=0.301
+Episode 20000/20000 || Best average reward 9.383
+
+Trying: epsilon=0.00058 || alpha=0.972 || gamma=0.531
+Episode 20000/20000 || Best average reward 9.351
+
+Trying: epsilon=0.00091 || alpha=0.869 || gamma=0.811
+Episode 20000/20000 || Best average reward 9.028
+
+Trying: epsilon=0.00041 || alpha=0.649 || gamma=0.944
+Episode 20000/20000 || Best average reward 9.049
+
+Trying: epsilon=0.00062 || alpha=0.81 || gamma=0.125
+Episode 20000/20000 || Best average reward -61.73
+
+Trying: epsilon=7e-05 || alpha=0.201 || gamma=0.215
+Episode 20000/20000 || Best average reward 9.011
+
+Trying: epsilon=0.00055 || alpha=0.111 || gamma=0.481
+Episode 20000/20000 || Best average reward 9.361
+
+Trying: epsilon=0.00025 || alpha=0.949 || gamma=0.35
+Episode 20000/20000 || Best average reward 9.337
+
+Trying: epsilon=0.0004 || alpha=0.108 || gamma=0.853
+Episode 20000/20000 || Best average reward 9.467
+
+Trying: epsilon=0.00022 || alpha=0.685 || gamma=0.45
+Episode 20000/20000 || Best average reward 9.326
+
+Trying: epsilon=5e-05 || alpha=0.952 || gamma=0.355
+Episode 20000/20000 || Best average reward 9.146
+
+Trying: epsilon=0.00029 || alpha=0.587 || gamma=0.488
+Episode 20000/20000 || Best average reward 9.027
+
+Trying: epsilon=0.00045 || alpha=0.835 || gamma=0.349
+Episode 20000/20000 || Best average reward 9.281
+
+Trying: epsilon=0.00038 || alpha=0.837 || gamma=0.943
+Episode 20000/20000 || Best average reward 9.147
+
+Trying: epsilon=7e-05 || alpha=0.947 || gamma=0.894
+Episode 20000/20000 || Best average reward 9.276
+
+Trying: epsilon=0.00092 || alpha=0.831 || gamma=0.304
+Episode 20000/20000 || Best average reward 9.199
+
+Trying: epsilon=0.00086 || alpha=0.329 || gamma=0.941
+Episode 20000/20000 || Best average reward 9.256
+
+Trying: epsilon=2e-05 || alpha=0.708 || gamma=0.893
+Episode 20000/20000 || Best average reward 9.215
+
+Trying: epsilon=0.001 || alpha=0.247 || gamma=0.373
+Episode 20000/20000 || Best average reward 9.216
+
+Trying: epsilon=0.00015 || alpha=0.94 || gamma=0.159
+Episode 20000/20000 || Best average reward -1.27
+
+Trying: epsilon=0.00084 || alpha=0.613 || gamma=0.484
+Episode 20000/20000 || Best average reward 9.173
+
+Trying: epsilon=0.00015 || alpha=0.908 || gamma=0.209
+Episode 20000/20000 || Best average reward 9.332
+
+Trying: epsilon=0.00051 || alpha=0.456 || gamma=0.321
+Episode 20000/20000 || Best average reward 9.051
+
+Trying: epsilon=0.00038 || alpha=0.789 || gamma=0.429
+Episode 20000/20000 || Best average reward 9.299
+
+Trying: epsilon=8e-05 || alpha=0.861 || gamma=0.171
+Episode 20000/20000 || Best average reward 9.376
+
+Trying: epsilon=0.00094 || alpha=0.587 || gamma=0.719
+Episode 20000/20000 || Best average reward 9.081
+
+Trying: epsilon=0.00044 || alpha=0.505 || gamma=0.337
+Episode 20000/20000 || Best average reward 9.158
+
+Trying: epsilon=0.00099 || alpha=0.982 || gamma=0.282
+Episode 20000/20000 || Best average reward 6.444
+
+Trying: epsilon=1e-05 || alpha=0.947 || gamma=0.609
+Episode 20000/20000 || Best average reward 9.351
+
+Trying: epsilon=0.00063 || alpha=0.45 || gamma=0.609
+Episode 20000/20000 || Best average reward 9.154
+
+Trying: epsilon=0.00086 || alpha=0.174 || gamma=0.942
+Episode 20000/20000 || Best average reward 9.196
+
+Trying: epsilon=0.00044 || alpha=0.66 || gamma=0.645
+Episode 20000/20000 || Best average reward 8.957
+
+Trying: epsilon=0.00062 || alpha=0.233 || gamma=0.139
+Episode 20000/20000 || Best average reward 8.673
+
+Trying: epsilon=0.00028 || alpha=0.475 || gamma=0.295
+Episode 20000/20000 || Best average reward 9.134
+
+Trying: epsilon=0.00047 || alpha=0.176 || gamma=0.525
+Episode 20000/20000 || Best average reward 9.162
+
+Trying: epsilon=0.00067 || alpha=0.303 || gamma=0.661
+Episode 20000/20000 || Best average reward 9.375
+
+Trying: epsilon=0.00083 || alpha=0.581 || gamma=0.184
+Episode 20000/20000 || Best average reward 8.825
+
+Trying: epsilon=0.00046 || alpha=0.797 || gamma=0.36
+Episode 20000/20000 || Best average reward 9.398
+
+Trying: epsilon=0.00061 || alpha=0.479 || gamma=0.792
+Episode 20000/20000 || Best average reward 9.252
+
+Trying: epsilon=0.00048 || alpha=0.727 || gamma=0.484
+Episode 20000/20000 || Best average reward 9.311
+
+Trying: epsilon=0.00073 || alpha=0.736 || gamma=0.766
+Episode 20000/20000 || Best average reward 8.912
+
+Trying: epsilon=0.00063 || alpha=0.736 || gamma=0.608
+Episode 20000/20000 || Best average reward 9.159
+
+Trying: epsilon=0.00093 || alpha=0.783 || gamma=0.596
+Episode 20000/20000 || Best average reward 9.043
+
+Trying: epsilon=0.00074 || alpha=0.712 || gamma=0.648
+Episode 20000/20000 || Best average reward 9.212
+
+Trying: epsilon=0.00033 || alpha=0.458 || gamma=0.816
+Episode 20000/20000 || Best average reward 9.178
+
+Trying: epsilon=0.00033 || alpha=0.244 || gamma=0.802
+Episode 20000/20000 || Best average reward 9.343
+
+Trying: epsilon=0.0002 || alpha=0.801 || gamma=0.38
+Episode 20000/20000 || Best average reward 9.313
+
+Trying: epsilon=0.00082 || alpha=0.2 || gamma=0.493
+Episode 20000/20000 || Best average reward 9.364
+
+Trying: epsilon=0.00026 || alpha=0.895 || gamma=0.462
+Episode 20000/20000 || Best average reward 9.388
+
+Trying: epsilon=4e-05 || alpha=0.313 || gamma=0.267
+Episode 20000/20000 || Best average reward 9.191
+
+Trying: epsilon=0.00028 || alpha=0.352 || gamma=0.783
+Episode 20000/20000 || Best average reward 9.329
+
+Trying: epsilon=0.00014 || alpha=0.516 || gamma=0.983
+Episode 20000/20000 || Best average reward 9.229
+
+Trying: epsilon=0.00014 || alpha=0.855 || gamma=0.831
+Episode 20000/20000 || Best average reward 9.186
+
+Trying: epsilon=0.00099 || alpha=0.378 || gamma=0.824
+Episode 20000/20000 || Best average reward 9.219
+
+Trying: epsilon=0.00086 || alpha=0.952 || gamma=0.418
+Episode 20000/20000 || Best average reward 8.982
+
+Trying: epsilon=0.00056 || alpha=0.967 || gamma=0.928
+Episode 20000/20000 || Best average reward 9.035
+
+Trying: epsilon=0.00047 || alpha=0.917 || gamma=0.263
+Episode 20000/20000 || Best average reward 9.172
+
+Trying: epsilon=0.00023 || alpha=0.547 || gamma=0.264
+Episode 20000/20000 || Best average reward 9.313
+
+Trying: epsilon=0.00081 || alpha=0.633 || gamma=0.943
+Episode 20000/20000 || Best average reward 9.155
+
+Trying: epsilon=0.00039 || alpha=0.514 || gamma=0.722
+Episode 20000/20000 || Best average reward 9.256
+
+Trying: epsilon=0.00074 || alpha=0.247 || gamma=0.718
+Episode 20000/20000 || Best average reward 9.252
+
+Trying: epsilon=0.00095 || alpha=0.894 || gamma=0.848
+Episode 20000/20000 || Best average reward 9.233
+
+Trying: epsilon=0.001 || alpha=0.948 || gamma=0.782
+Episode 20000/20000 || Best average reward 9.169
+
+Trying: epsilon=0.0002 || alpha=0.95 || gamma=0.981
+Episode 20000/20000 || Best average reward 8.944
+
+Trying: epsilon=0.0005 || alpha=0.262 || gamma=0.694
+Episode 20000/20000 || Best average reward 9.383
+
+Trying: epsilon=0.00054 || alpha=0.228 || gamma=0.783
+Episode 20000/20000 || Best average reward 9.218
+
+Trying: epsilon=0.00011 || alpha=0.713 || gamma=0.273
+Episode 20000/20000 || Best average reward 9.371
+
+Trying: epsilon=0.00011 || alpha=0.393 || gamma=0.317
+Episode 20000/20000 || Best average reward 9.261
+
+Trying: epsilon=0.00069 || alpha=0.375 || gamma=0.502
+Episode 20000/20000 || Best average reward 9.085
+
+Trying: epsilon=0.00026 || alpha=0.151 || gamma=0.335
+Episode 20000/20000 || Best average reward 9.273
+
+Trying: epsilon=0.00072 || alpha=0.231 || gamma=0.377
+Episode 20000/20000 || Best average reward 9.289
+
+Trying: epsilon=0.00027 || alpha=0.976 || gamma=0.789
+Episode 20000/20000 || Best average reward 8.938
+
+Trying: epsilon=0.00055 || alpha=0.448 || gamma=0.819
+Episode 20000/20000 || Best average reward 9.278
+
+Trying: epsilon=0.00076 || alpha=0.931 || gamma=0.172
+Episode 20000/20000 || Best average reward -55.55
+
+Trying: epsilon=0.00095 || alpha=0.451 || gamma=0.274
+Episode 20000/20000 || Best average reward 8.951
+
+Trying: epsilon=0.00063 || alpha=0.216 || gamma=0.458
+Episode 20000/20000 || Best average reward 9.195
+
+Trying: epsilon=0.00042 || alpha=0.626 || gamma=0.849
+Episode 20000/20000 || Best average reward 8.991
+
+Trying: epsilon=0.00039 || alpha=0.859 || gamma=0.893
+Episode 20000/20000 || Best average reward 9.313
+
+Trying: epsilon=0.00057 || alpha=0.631 || gamma=0.89
+Episode 20000/20000 || Best average reward 9.339
+
+Trying: epsilon=0.00093 || alpha=0.389 || gamma=0.877
+Episode 20000/20000 || Best average reward 9.344
+
+Trying: epsilon=0.00055 || alpha=0.213 || gamma=0.411
+Episode 20000/20000 || Best average reward 9.188
+
+Trying: epsilon=0.00024 || alpha=0.724 || gamma=0.66
+Episode 20000/20000 || Best average reward 9.433
+
+Trying: epsilon=0.00066 || alpha=0.676 || gamma=0.518
+Episode 20000/20000 || Best average reward 9.295
+
+Trying: epsilon=0.00082 || alpha=0.287 || gamma=0.154
+Episode 20000/20000 || Best average reward 7.0187
+
+Trying: epsilon=0.00023 || alpha=0.261 || gamma=0.441
+Episode 20000/20000 || Best average reward 9.411
+
+Trying: epsilon=0.00076 || alpha=0.108 || gamma=0.868
+Episode 20000/20000 || Best average reward 9.328
+
+Trying: epsilon=0.00033 || alpha=0.445 || gamma=0.305
+Episode 20000/20000 || Best average reward 9.123
+
+Trying: epsilon=0.0004 || alpha=0.985 || gamma=0.864
+Episode 20000/20000 || Best average reward 9.075
+
+Trying: epsilon=0.00027 || alpha=0.935 || gamma=0.61
+Episode 20000/20000 || Best average reward 9.096
+
+Trying: epsilon=0.00033 || alpha=0.155 || gamma=0.339
+Episode 20000/20000 || Best average reward 9.081
+
+Trying: epsilon=0.00024 || alpha=0.364 || gamma=0.981
+Episode 20000/20000 || Best average reward 9.021
+
+Trying: epsilon=0.00094 || alpha=0.636 || gamma=0.915
+Episode 20000/20000 || Best average reward 9.048
+
+Trying: epsilon=0.00016 || alpha=0.974 || gamma=0.856
+Episode 20000/20000 || Best average reward 9.073
+
+Trying: epsilon=0.00099 || alpha=0.85 || gamma=0.39
+Episode 20000/20000 || Best average reward 9.181
+
+Trying: epsilon=0.00035 || alpha=0.65 || gamma=0.266
+Episode 20000/20000 || Best average reward 9.228
+
+Trying: epsilon=0.00026 || alpha=0.686 || gamma=0.597
+Episode 20000/20000 || Best average reward 9.186
+
+Trying: epsilon=3e-05 || alpha=0.451 || gamma=0.498
+Episode 20000/20000 || Best average reward 9.319
+
+Trying: epsilon=0.00042 || alpha=0.304 || gamma=0.816
+Episode 20000/20000 || Best average reward 9.169
+
+Trying: epsilon=0.00097 || alpha=0.628 || gamma=0.902
+Episode 20000/20000 || Best average reward 9.059
+
+Trying: epsilon=0.00057 || alpha=0.893 || gamma=0.826
+Episode 20000/20000 || Best average reward 8.852
+
+Trying: epsilon=0.00075 || alpha=0.586 || gamma=0.19
+Episode 20000/20000 || Best average reward 9.027
+
+Trying: epsilon=0.00087 || alpha=0.244 || gamma=0.673
+Episode 20000/20000 || Best average reward 9.147
+
+Trying: epsilon=8e-05 || alpha=0.66 || gamma=0.798
+Episode 20000/20000 || Best average reward 9.027
+
+Trying: epsilon=0.00051 || alpha=0.972 || gamma=0.101
+Episode 20000/20000 || Best average reward -90.89
+
+Trying: epsilon=0.00053 || alpha=0.378 || gamma=0.982
+Episode 20000/20000 || Best average reward 9.225
+
+Trying: epsilon=0.00011 || alpha=0.708 || gamma=0.488
+Episode 20000/20000 || Best average reward 9.017
+
+Trying: epsilon=3e-05 || alpha=0.94 || gamma=0.836
+Episode 20000/20000 || Best average reward 9.095
+
+Trying: epsilon=0.00037 || alpha=0.159 || gamma=0.841
+Episode 20000/20000 || Best average reward 9.295
+
+Trying: epsilon=0.00015 || alpha=0.556 || gamma=0.977
+Episode 20000/20000 || Best average reward 8.965
+
+Trying: epsilon=0.0002 || alpha=0.673 || gamma=0.908
+Episode 20000/20000 || Best average reward 9.038
+
+Trying: epsilon=0.00029 || alpha=0.942 || gamma=0.268
+Episode 20000/20000 || Best average reward 9.291
+
+Trying: epsilon=0.00098 || alpha=0.358 || gamma=0.725
+Episode 20000/20000 || Best average reward 9.273
+
+Trying: epsilon=0.00078 || alpha=0.559 || gamma=0.395
+Episode 20000/20000 || Best average reward 9.235
+
+Trying: epsilon=0.00096 || alpha=0.182 || gamma=0.491
+Episode 20000/20000 || Best average reward 9.131
+
+Trying: epsilon=0.00095 || alpha=0.935 || gamma=0.119
+Episode 20000/20000 || Best average reward -95.06
+
+Trying: epsilon=0.00032 || alpha=0.732 || gamma=0.81
+Episode 20000/20000 || Best average reward 8.979
+
+Trying: epsilon=0.0004 || alpha=0.376 || gamma=0.191
+Episode 20000/20000 || Best average reward 8.976
+
+Trying: epsilon=0.00078 || alpha=0.235 || gamma=0.89
+Episode 20000/20000 || Best average reward 9.298
+
+Trying: epsilon=0.00056 || alpha=0.156 || gamma=0.432
+Episode 20000/20000 || Best average reward 9.187
+
+Trying: epsilon=0.00093 || alpha=0.82 || gamma=0.836
+Episode 20000/20000 || Best average reward 8.883
+
+Trying: epsilon=0.00011 || alpha=0.528 || gamma=0.507
+Episode 20000/20000 || Best average reward 9.239
+
+Trying: epsilon=0.00047 || alpha=0.325 || gamma=0.633
+Episode 20000/20000 || Best average reward 9.177
+
+Trying: epsilon=0.00011 || alpha=0.257 || gamma=0.413
+Episode 20000/20000 || Best average reward 9.313
+
+Trying: epsilon=0.00054 || alpha=0.545 || gamma=0.811
+Episode 20000/20000 || Best average reward 9.154
+
+Trying: epsilon=0.00045 || alpha=0.438 || gamma=0.31
+Episode 20000/20000 || Best average reward 9.269
+
+Trying: epsilon=0.0005 || alpha=0.834 || gamma=0.809
+Episode 20000/20000 || Best average reward 9.255
+
+Trying: epsilon=7e-05 || alpha=0.926 || gamma=0.451
+Episode 20000/20000 || Best average reward 9.167
+
+Trying: epsilon=0.00044 || alpha=0.261 || gamma=0.428
+Episode 20000/20000 || Best average reward 9.264
+
+Trying: epsilon=0.00069 || alpha=0.597 || gamma=0.898
+Episode 20000/20000 || Best average reward 9.218
+
+Trying: epsilon=0.0007 || alpha=0.807 || gamma=0.334
+Episode 20000/20000 || Best average reward 9.246
+
+Trying: epsilon=0.00027 || alpha=0.546 || gamma=0.722
+Episode 20000/20000 || Best average reward 9.339
+
+Trying: epsilon=0.00081 || alpha=0.56 || gamma=0.564
+Episode 20000/20000 || Best average reward 9.236
+
+Trying: epsilon=0.00085 || alpha=0.807 || gamma=0.663
+Episode 20000/20000 || Best average reward 9.124
+
+Trying: epsilon=0.00035 || alpha=0.174 || gamma=0.382
+Episode 20000/20000 || Best average reward 9.272
+
+Trying: epsilon=0.0005 || alpha=0.38 || gamma=0.508
+Episode 14160/20000 || Best average reward 9.731
+Environment solved in 14160 episodes.
+Success!
+root@e9f49640e2da:/home/workspace#
