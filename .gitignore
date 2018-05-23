@@ -62,10 +62,9 @@ docs/_build/
 target/
 
 # Ipython Notebook
-.ipynb_checkpoints
+**/.ipynb_checkpoints
 
 # Large and/or unimportant files/folders
-/practice_projects/**/.ipynb_checkpoints/
 /practice_projects/**/dogImages
 /practice_projects/**/DogVGG16Data.npz
 /practice_projects/**/*.hdf5
