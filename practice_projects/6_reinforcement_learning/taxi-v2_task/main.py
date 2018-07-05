@@ -11,7 +11,7 @@ avg_rewards, best_avg_reward = interact(env, agent)
 ## I added the following code on top of the default code (above) as a way to run my own cross validation with random epsilon, alpha and gamma.
 
 while best_avg_reward <= 9.7:  ## I know I could include 9.7, but I'd like results better than the minimum :D
-    agent = Agent(cross_validation=True)
+    agent = Agent(grid_search=True)
     avg_rewards, best_avg_reward = interact(env, agent)
 
 print("\r\nSuccess!")
