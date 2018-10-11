@@ -2,6 +2,10 @@
 ## completed by TheNathanielWaktkins
 
 Here you'll find all of my completed content for Udacity's Machine Learning curriculum, which includes projects and their descriptions.
+[https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t)
+
+### Syllabus
+[https://s3.amazonaws.com/iridium-content/documents/en-US/MLND+2-Term+Syllabus.pdf](https://s3.amazonaws.com/iridium-content/documents/en-US/MLND+2-Term+Syllabus.pdf)
 
 ### Note:
 Several of these projects will be duplicates from the other repositories on my GitHub.  While I wanted to feature some of my projects in their own separate repositories, I also wanted to have everything consolidated into this one repository, hence the redundancy.
